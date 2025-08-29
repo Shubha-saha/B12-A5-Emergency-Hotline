@@ -8,11 +8,7 @@ Ans: createElement() method is used to create a new HTML element then use append
 3. What is Event Bubbling and how does it work?
 Ans: Event Bubbling- When an event happens on a child element, it bubbles up to its parent elements.
 4. What is Event Delegation in JavaScript? Why is it useful?
-Ans: Event Delegation- Instead of attaching event listeners to multiple child elements, you attach one listener to a parent and detect the target element inside the handler.
-
-Why useful:-
-  a. Saves memory
-  b. Works for dynamically added elements
+Ans: Event Delegation- Instead of attaching event listeners to multiple child elements, you attach one listener to a parent and detect the target element inside the handler. it useful for Saves memory and dynamically added elements.
 5. What is the difference between preventDefault() and stopPropagation() methods?
 Ans:  preventDefault()- stop browser default action
       stopPropagation()- stop event bubbling
